@@ -8,6 +8,7 @@
 body {
   /* Fill in the white space around the transformed images */
   background-color: black;
+  font-family: 'Indie Flower', cursive;
 }
 
 .container {
@@ -74,12 +75,33 @@ body {
   color: whitesmoke;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 10px;
-  background-color: #585858;
+  justify-content: space-around;
+  /* margin: 10px; */
+  align-items: center;
+  padding: 10px;
+  font-size: 1.2em;
 }
 
 .navbar--ul > li {
   display: inline-block;
+  text-shadow: 1px 1px #d9ae04;
 
+}
+
+.header {
+  background-color: #303030;
+}
+
+.ye {
+  font-size: 200%;
+}
+
+.navbar--ul > li > a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.navbar--ul > li > a:visited {
+  color: whitesmoke;
+  text-decoration: none;
 }
