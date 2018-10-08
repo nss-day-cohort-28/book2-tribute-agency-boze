@@ -121,4 +121,5 @@ body {
 
 .navbar--ul > li > a:visited {
   color: whitesmoke;
+  text-decoration: none;
 }
