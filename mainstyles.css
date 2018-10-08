@@ -69,3 +69,8 @@ body {
   flex-basis: 75%;
   height: 100%;
 }
+
+.disc {
+  background-color: #D9AE04;
+  height: 48px;
+}
