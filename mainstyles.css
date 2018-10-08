@@ -84,3 +84,7 @@ body {
   background-color: #D9AE04;
   height: 48px;
 }
+
+.social-media > ul > a {
+  text-decoration: none;
+}
