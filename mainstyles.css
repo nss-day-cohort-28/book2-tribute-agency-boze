@@ -69,3 +69,17 @@ body {
   flex-basis: 75%;
   height: 100%;
 }
+
+.navbar--ul {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  background-color: #585858;
+}
+
+.navbar--ul > li {
+  display: inline-block;
+
+}
