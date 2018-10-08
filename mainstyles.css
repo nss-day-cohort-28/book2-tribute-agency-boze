@@ -70,6 +70,16 @@ body {
   height: 100%;
 }
 
+.social-media {
+  display: flex;
+  justify-content: center;
+  background-color: #303030;
+}
+
+.social-media img {
+  margin: 20px 20px;
+  border-radius: 5px;
+}
 .disc {
   background-color: #D9AE04;
   height: 48px;
