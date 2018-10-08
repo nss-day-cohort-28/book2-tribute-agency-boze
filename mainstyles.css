@@ -1,1 +1,71 @@
 /* Time to make magic. Kanye style. */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Fill in the white space around the transformed images */
+  background-color: black;
+}
+
+.container {
+  /* The height needs to be a fixed value. 100vh full height. */
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Set the simulated distance from the viewport to transformed objects.*/
+  perspective: 2px;
+}
+
+.section {
+  /* relative position needed for image text */
+  position: relative;
+  height: 100vh;
+  /* Format content in sections (really just the content div) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
+
+.parallax::after {
+  /* Display and position backgrounds */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* Move the background image away,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+  transform: translateZ(-1px) scale(1.5);
+  /* Force the background image to fill the whole element. */
+    /* NOTE: may consider cover instead of 100% - Brendan */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* Keep the image from overlapping sibling elements. */
+  z-index: -1;
+}
+
+.bg1::after {
+  background-image: url('images/Kanye-West-backgrounds-4k.jpg');
+}
+
+.bg2::after {
+  background-image: url('images/kanye-west-time-100-2015-titans.jpg');
+}
+
+/* The styling for the static div. */
+.static {
+  background: black;
+}
+
+.container--content {
+  border: 1px solid white;
+  flex-basis: 75%;
+  height: 100%;
+}
