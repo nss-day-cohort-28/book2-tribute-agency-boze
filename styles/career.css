@@ -6,16 +6,79 @@
   .secondary-content {
     display: flex;
     flex-basis: 75%;
+    color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-flow: row wrap;
+    font-family: 'Catamaran';
   }
   
+  .careerinfo--intro {
+      padding-top: 50px;
+      display: flex;
+      flex-flow: column wrap;
+      flex-basis: 100%;
+      align-items: center;
+      height: auto;
+  }
+
+  .careerinfo--skills {
+      padding-top: 50px;
+      display: flex;
+      flex-flow: column wrap;
+      flex-basis: 50%;
+      align-items: center;
+  }
+
+  .careerinfo--awards {
+        padding-top: 50px;
+        display: flex;
+        flex-flow: column wrap;
+        flex-basis: 50%;
+        align-items: center;
+  }       
+
+  .careerinfo--discography {
+        padding-top: 50px;
+        display: flex;
+        flex-flow: column wrap;
+        flex-basis: 100%;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+  .careerinfo--places-lived {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-flow: column wrap;
+        flex-basis: 100%;
+        align-items: center;
+    }
+
+  .places-lived-list {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .places-lived-list > ul {
+      list-style-type: none;
+  }
+
+  .places-lived-list > ul:last-child {
+    padding-left: 300px;
+  }
+
   .left-bg {
       /* Pick a solid background color that will be displayed while the background image is loading */
       background-color: #464646;
   
-      background: url(/images/Kanye-West-backgrounds-4k.jpg);
+      background: url(/images/career-bg.jpg);
     
       /* Image is centered horizontally and vertically at all times */
-      background-position: center center;
+      background-position: -500px center;
       
       /* Image doesn't repeat */
       background-repeat: no-repeat;
@@ -35,7 +98,7 @@
       /* Pick a solid background color that will be displayed while the background image is loading */
       background-color: #464646;
   
-      background: url(/images/kanye-west-time-100-2015-titans.jpg);
+      background: url(/images/career-bg.jpg);
     
       /* Image is centered horizontally and vertically at all times */
       background-position: center center;
