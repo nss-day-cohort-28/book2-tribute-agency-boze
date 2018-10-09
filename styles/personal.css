@@ -6,6 +6,16 @@
   .secondary-content {
     display: flex;
     flex-basis: 75%;
+    color: white;
+    font-family: 'Catamaran';
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-wrap: wrap;
   }
   
   .left-bg {
@@ -53,3 +63,36 @@
       height: 100%;
       flex-basis: 12.5%;
   }
+
+.content-div-1 {
+    margin: 15px;
+}
+
+.content-div-2 {
+    margin: 15px;
+}
+
+.image-container {
+    height: auto;
+    object-fit: scale-down;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.photo1, .photo2, .photo3, .photo4 {
+    flex-basis: 75%;
+}
+
+.photo1 {
+    /* height: 350px; */
+}
+
+.image-container img {
+    width: 100%;
+    /* max-width: 125px; */
+    padding: 10px;
+    display: block;
+}
