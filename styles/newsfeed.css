@@ -5,12 +5,15 @@
   
 .secondary-content {
     display: flex;
-    flex-basis: 75%;
+    flex-basis: 65%;
     color: whitesmoke;
     overflow: hidden;
     font-family: 'Catamaran';
     flex-direction: row;
     flex-wrap: wrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 22px;
 }
 
 .newsfeed-div-1 {
@@ -25,13 +28,15 @@
 .newsfeed-div-1 > a {
     color: whitesmoke;
     text-decoration: none;
-    text-shadow: 1px 1px #d9ae04;
 }
   
 .newsfeed-div-1 > a:visited {
     color: whitesmoke;
     text-decoration: none;
-    text-shadow: 1px 1px #d9ae04;
+}
+
+.newsfeed-div-1 > a:hover {
+    text-decoration: underline;
 }
 
 .newsfeed-div-1 > img {
@@ -44,6 +49,7 @@
     flex-direction: column;
     flex-basis: 50%;
     text-align: center;
+    padding: 5px;
 }
 
 .newsfeed-div-3 {
@@ -51,36 +57,40 @@
     flex-direction: column;
     flex-basis: 50%;
     text-align: center;
+    padding: 5px;
 }
 
 .newsfeed-div-2 > a {
     color: whitesmoke;
     text-decoration: none;
-    text-shadow: 1px 1px #d9ae04;
 }
   
 .newsfeed-div-2 > a:visited {
     color: whitesmoke;
     text-decoration: none;
-    text-shadow: 1px 1px #d9ae04;
+}
+
+.newsfeed-div-2 > a:hover {
+    text-decoration: underline;
 }
 
 .newsfeed-div-3 > a {
     color: whitesmoke;
     text-decoration: none;
-    text-shadow: 1px 1px #d9ae04;
 }
   
 .newsfeed-div-3 > a:visited {
     color: whitesmoke;
     text-decoration: none;
-    text-shadow: 1px 1px #d9ae04;
+}
+
+.newsfeed-div-3 > a:hover {
+    text-decoration: underline;
 }
 
 .newsfeed-div-4 > a {
     color: whitesmoke;
     text-decoration: none;
-    text-shadow: 1px 1px #d9ae04;
 }
 
 .newsfeed-div-4 {
@@ -88,12 +98,16 @@
     flex-direction: column;
     flex-basis: 50%;
     text-align: center;
+    padding: 5px;
 }
 
 .newsfeed-div-4 > a:visited {
     color: whitesmoke;
     text-decoration: none;
-    text-shadow: 1px 1px #d9ae04;
+}
+
+.newsfeed-div-4 > a:hover {
+    text-decoration: underline;
 }
 
 .newsfeed-div-5 {
@@ -101,18 +115,21 @@
     flex-direction: column;
     flex-basis: 50%;
     text-align: center;
+    padding: 5px;
 }
 
 .newsfeed-div-5 > a {
     color: whitesmoke;
     text-decoration: none;
-    text-shadow: 1px 1px #d9ae04;
 }
   
 .newsfeed-div-5 > a:visited {
     color: whitesmoke;
     text-decoration: none;
-    text-shadow: 1px 1px #d9ae04;
+}
+
+.newsfeed-div-5 > a:hover {
+    text-decoration: underline;
 }
 
 
@@ -121,10 +138,10 @@
     /* Pick a solid background color that will be displayed while the background image is loading */
     background-color: #464646;
 
-    background: url(/images/Kanye-West-backgrounds-4k.jpg);
+    background: url(/images/yetrump.jpg);
 
     /* Image is centered horizontally and vertically at all times */
-    background-position: center center;
+    background-position: -250px 50px;
     
     /* Image doesn't repeat */
     background-repeat: no-repeat;
@@ -137,17 +154,17 @@
     background-size: cover;
     
     height: 100%;
-    flex-basis: 12.5%;
+    flex-basis: 17.5%;
 }
   
 .right-bg {
     /* Pick a solid background color that will be displayed while the background image is loading */
     background-color: #464646;
 
-    background: url(/images/kanye-west-time-100-2015-titans.jpg);
+    background: url(/images/yetrump.jpg);
 
     /* Image is centered horizontally and vertically at all times */
-    background-position: center center;
+    background-position: 250px -15px;
     
     /* Image doesn't repeat */
     background-repeat: no-repeat;
@@ -160,5 +177,5 @@
     background-size: cover;
     
     height: 100%;
-    flex-basis: 12.5%;
+    flex-basis: 17.5%;
 }
