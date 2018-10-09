@@ -5,9 +5,9 @@
   
   .secondary-content {
     display: flex;
-    flex-basis: 75%;
+    flex-basis: 65%;
     color: white;
-    font-family: 'Catamaran';
+    font-family: 'Catamaran', 'Arial', 'sans-serif';
     overflow: hidden;
     justify-content: center;
     flex-direction: row;
@@ -22,7 +22,7 @@
       /* Pick a solid background color that will be displayed while the background image is loading */
       background-color: #464646;
   
-      background: url(/images/Kanye-West-backgrounds-4k.jpg);
+      background: url(/images/personal-back2.jpg);
     
       /* Image is centered horizontally and vertically at all times */
       background-position: center center;
@@ -38,14 +38,14 @@
       background-size: cover;
       
       height: 100%;
-      flex-basis: 12.5%;
+      flex-basis: 17.5%;
   }
   
   .right-bg {
       /* Pick a solid background color that will be displayed while the background image is loading */
       background-color: #464646;
   
-      background: url(/images/kanye-west-time-100-2015-titans.jpg);
+      background: url(/images/personal-back2.jpg);
     
       /* Image is centered horizontally and vertically at all times */
       background-position: center center;
@@ -61,15 +61,15 @@
       background-size: cover;
       
       height: 100%;
-      flex-basis: 12.5%;
+      flex-basis: 17.5%;
   }
 
 .content-div-1 {
-    margin: 15px;
+    margin: 20px;
 }
 
 .content-div-2 {
-    margin: 15px;
+    margin: 20px;
 }
 
 .image-container {
@@ -92,7 +92,6 @@
 
 .image-container img {
     width: 100%;
-    /* max-width: 125px; */
     padding: 10px;
     display: block;
 }
