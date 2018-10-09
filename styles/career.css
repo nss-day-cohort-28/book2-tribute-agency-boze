@@ -6,7 +6,7 @@
   .secondary-content {
     display: flex;
     flex-basis: 75%;
-    color: white;
+    color: whitesmoke;
     overflow-y: auto;
     overflow-x: hidden;
     flex-flow: row wrap;
