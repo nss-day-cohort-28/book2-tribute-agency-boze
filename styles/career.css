@@ -14,57 +14,57 @@
   }
   
   .careerinfo--intro {
-      padding-top: 50px;
-      display: flex;
-      flex-flow: column wrap;
-      flex-basis: 100%;
-      align-items: center;
-      height: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 100%;
+    align-items: center;
+    height: auto;
   }
 
   .careerinfo--skills {
-      padding-top: 50px;
-      display: flex;
-      flex-flow: column wrap;
-      flex-basis: 50%;
-      align-items: center;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+    align-items: center;
   }
 
   .careerinfo--awards {
-        padding-top: 50px;
-        display: flex;
-        flex-flow: column wrap;
-        flex-basis: 50%;
-        align-items: center;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+    align-items: center;
   }       
 
   .careerinfo--discography {
-        padding-top: 50px;
-        display: flex;
-        flex-flow: column wrap;
-        flex-basis: 100%;
-        justify-content: center;
-        align-items: center;
-        height: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
     }
 
   .careerinfo--places-lived {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        display: flex;
-        flex-flow: column wrap;
-        flex-basis: 100%;
-        align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 100%;
+    align-items: center;
     }
 
   .places-lived-list {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .places-lived-list > ul {
-      list-style-type: none;
+    list-style-type: none;
   }
 
   /* Creates two columns in Places Lived */
@@ -73,47 +73,47 @@
   }
 
   .left-bg {
-      /* Pick a solid background color that will be displayed while the background image is loading */
-      background-color: #464646;
-  
-      background: url(/images/career-bg.jpg);
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color: #464646;
+
+    background: url(/images/career-bg.jpg);
+
+    /* Image is adjusted on X access to center Ye */
+    background-position: -500px center;
     
-      /* Image is adjusted on X access to center Ye */
-      background-position: -500px center;
-      
-      /* Image doesn't repeat */
-      background-repeat: no-repeat;
-      
-      /* Makes the image fixed in the viewport so that it doesn't move when 
-         the content height is greater than the image height */
-      background-attachment: fixed;
-      
-      /* This is what makes the background image rescale based on its container's size */
-      background-size: cover;
-      
-      height: 100%;
-      flex-basis: 12.5%;
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+        the content height is greater than the image height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    
+    height: 100%;
+    flex-basis: 12.5%;
   }
   
   .right-bg {
-      /* Pick a solid background color that will be displayed while the background image is loading */
-      background-color: #464646;
-  
-      background: url(/images/career-bg.jpg);
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color: #464646;
+
+    background: url(/images/career-bg.jpg);
+
+    /* Image is centered horizontally and vertically at all times */
+    background-position: center center;
     
-      /* Image is centered horizontally and vertically at all times */
-      background-position: center center;
-      
-      /* Image doesn't repeat */
-      background-repeat: no-repeat;
-      
-      /* Makes the image fixed in the viewport so that it doesn't move when 
-         the content height is greater than the image height */
-      background-attachment: fixed;
-      
-      /* This is what makes the background image rescale based on its container's size */
-      background-size: cover;
-      
-      height: 100%;
-      flex-basis: 12.5%;
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+        the content height is greater than the image height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    
+    height: 100%;
+    flex-basis: 12.5%;
   }
