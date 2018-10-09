@@ -67,6 +67,7 @@
       list-style-type: none;
   }
 
+  /* Creates two columns in Places Lived */
   .places-lived-list > ul:last-child {
     padding-left: 300px;
   }
@@ -77,7 +78,7 @@
   
       background: url(/images/career-bg.jpg);
     
-      /* Image is centered horizontally and vertically at all times */
+      /* Image is adjusted on X access to center Ye */
       background-position: -500px center;
       
       /* Image doesn't repeat */
