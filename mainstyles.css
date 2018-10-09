@@ -87,6 +87,11 @@ body {
   flex-basis: 40.26%;
 }
 
+.portrait > h1 {
+  font-family: 'Catamaran', 'Arial', sans-serif;
+  font-size: 30px;
+}
+
 .container--content > .portrait > img {
   /* this image has an inline css style for max-width */
   width: 100%;
@@ -95,7 +100,7 @@ body {
 
 .container--content figcaption {
   font-family: 'Catamaran', 'Arial', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .collaborators {
