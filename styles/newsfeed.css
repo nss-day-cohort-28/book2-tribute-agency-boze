@@ -3,53 +3,114 @@
     height: calc(100vh - 152px);
   }
   
-  .secondary-content {
+.secondary-content {
     display: flex;
     flex-basis: 75%;
-  }
+    color: whitesmoke;
+    overflow: hidden;
+    font-family: 'Catamaran';
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+.newsfeed-div-1 {
+    /* display: flex; */
+    flex-direction: column;
+    border: 1px solid red;
+    align-items: center;
+    text-align: center;
+}
+
+.newsfeed-div-1 > a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: 1px 1px #d9ae04;
+}
   
-  .left-bg {
-      /* Pick a solid background color that will be displayed while the background image is loading */
-      background-color: #464646;
+.newsfeed-div-1 > a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: 1px 1px #d9ae04;
+}
+
+.newsfeed-div-1 > img {
+    width: 90%;
+}
+
+.newsfeed-div-2 {
+    display: flex;
+    border: 10px solid green;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.newsfeed-div-3 {
+    display: flex;
+    border: 10px solid blue;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.newsfeed-div-4 {
+    display: flex;
+    border: 10px solid purple;
+    flex-direction: row;
+    flex-basis: 50%
+}
+
+.newsfeed-div-5 {
+    display: flex;
+    border: 10px solid orange;
+    flex-direction: row;
+    flex-basis: 50%;
+}
   
-      background: url(/images/Kanye-West-backgrounds-4k.jpg);
+.left-bg {
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color: #464646;
+
+    background: url(/images/Kanye-West-backgrounds-4k.jpg);
+
+    /* Image is centered horizontally and vertically at all times */
+    background-position: center center;
     
-      /* Image is centered horizontally and vertically at all times */
-      background-position: center center;
-      
-      /* Image doesn't repeat */
-      background-repeat: no-repeat;
-      
-      /* Makes the image fixed in the viewport so that it doesn't move when 
-         the content height is greater than the image height */
-      background-attachment: fixed;
-      
-      /* This is what makes the background image rescale based on its container's size */
-      background-size: cover;
-      
-      height: 100%;
-      flex-basis: 12.5%;
-  }
-  
-  .right-bg {
-      /* Pick a solid background color that will be displayed while the background image is loading */
-      background-color: #464646;
-  
-      background: url(/images/kanye-west-time-100-2015-titans.jpg);
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
     
-      /* Image is centered horizontally and vertically at all times */
-      background-position: center center;
-      
-      /* Image doesn't repeat */
-      background-repeat: no-repeat;
-      
-      /* Makes the image fixed in the viewport so that it doesn't move when 
-         the content height is greater than the image height */
-      background-attachment: fixed;
-      
-      /* This is what makes the background image rescale based on its container's size */
-      background-size: cover;
-      
-      height: 100%;
-      flex-basis: 12.5%;
-  }
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+        the content height is greater than the image height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    
+    height: 100%;
+    flex-basis: 12.5%;
+}
+  
+.right-bg {
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color: #464646;
+
+    background: url(/images/kanye-west-time-100-2015-titans.jpg);
+
+    /* Image is centered horizontally and vertically at all times */
+    background-position: center center;
+    
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+        the content height is greater than the image height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    
+    height: 100%;
+    flex-basis: 12.5%;
+}
