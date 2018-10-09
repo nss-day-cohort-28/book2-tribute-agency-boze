@@ -5,14 +5,38 @@
   
   .secondary-content {
     display: flex;
-    flex-basis: 75%;
+    flex-basis: 65%;
     color: whitesmoke;
     overflow-y: auto;
     overflow-x: hidden;
     flex-flow: row wrap;
     font-family: 'Catamaran';
+    font-size: 22px;
+  }
+
+  /* Section underlines */
+  h1 {
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 2.5px;
+    font-size: 1.17em;
   }
   
+  /* Spacing of list items */
+  ul > li {
+    padding-top: 7.5px;
+  }
+
+  div > h5 {
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+  }
+
+  /* Hides Bipolar easter egg link on "Who is Kanye West"*/
+  a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
   .careerinfo--intro {
     padding-top: 50px;
     display: flex;
@@ -30,13 +54,21 @@
     align-items: center;
   }
 
+  .careerinfo--skills > ul {
+    list-style-type: none;
+  }
+
   .careerinfo--awards {
     padding-top: 50px;
     display: flex;
     flex-flow: column wrap;
     flex-basis: 50%;
     align-items: center;
-  }       
+  }      
+  
+  .careerinfo--awards > ul {
+    list-style-type: none;
+  }
 
   .careerinfo--discography {
     padding-top: 50px;
@@ -92,7 +124,7 @@
     background-size: cover;
     
     height: 100%;
-    flex-basis: 12.5%;
+    flex-basis: 17.5%;
   }
   
   .right-bg {
@@ -115,5 +147,5 @@
     background-size: cover;
     
     height: 100%;
-    flex-basis: 12.5%;
+    flex-basis: 17.5%;
   }
