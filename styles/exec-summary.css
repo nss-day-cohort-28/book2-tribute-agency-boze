@@ -1,0 +1,23 @@
+/* begin styling footer  */
+.social-media {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  /* position to bottom of home page */
+  position: relative;
+  top: 100px;
+}
+
+.social-media img {
+  margin: 10px 20px;
+  border-radius: 5px;
+}
+.disc {
+  background-color: #D9AE04;
+  height: 48px;
+}
+
+.social-media > ul > a {
+  height: 0px;
+  text-decoration: none;
+}

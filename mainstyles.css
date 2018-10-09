@@ -76,8 +76,9 @@ body {
 .container--content {
   padding: 20px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -93,8 +94,33 @@ body {
 }
 
 .container--content figcaption {
-  font-family: 'Catamaran', 'Indie Flower', sans-serif;
+  font-family: 'Catamaran', 'Arial', sans-serif;
   font-size: 30px;
+}
+
+.collaborators {
+  font-family: 'Catamaran', 'Arial', sans-serif;
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+.aliases {
+  font-family: 'Catamaran', 'Arial', sans-serif;
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+.collaborators > ul > li:first-child, .aliases > ul > li:first-child {
+  padding-top: 7.5px;
+}
+
+.collaborators > ul, .aliases > ul {
+  list-style-type: none;
+}
+
+.collaborators > h1, .aliases > h1 {
+  border-bottom: 1px solid white;
+  padding-bottom: 2.5px;
 }
 
 /* begin styling footer  */
@@ -152,4 +178,3 @@ body {
   color: whitesmoke;
   text-decoration: none;
 }
-
