@@ -6,6 +6,9 @@
   .secondary-content {
     display: flex;
     flex-basis: 75%;
+    color: white;
+    font: 'Catamaran';
+    overflow: hidden;
   }
   
   .left-bg {
