@@ -13,16 +13,14 @@
     flex-wrap: wrap;
 }
 
-h1 {
-    text-align: center;
-}
-
 .newsfeed-div-1 {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     border: 1px solid red;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
 }
 
 .newsfeed-div-1 > a {
