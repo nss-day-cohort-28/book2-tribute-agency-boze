@@ -1,0 +1,5 @@
+.social-media {
+  /* position footer to bottom of home page */
+  position: relative;
+  top: 100px;
+}

@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* begin parallax styling */
 body {
   /* Fill in the white space around the transformed images */
   background-color: black;
@@ -42,7 +43,7 @@ body {
   left: 0;
   /* Move the background image away,
    * then scale it back up to fill the viewport.
-   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+   * Because the ::after is farther away, it appears to move more slowly */
   transform: translateZ(-1px) scale(1.5);
   /* Force the background image to fill the whole element. */
     /* NOTE: may consider cover instead of 100% - Brendan */
@@ -57,7 +58,7 @@ body {
 }
 
 .bg2::after {
-  background-image: url('images/kanye-west-time-100-2015-titans.jpg');
+  background-image: url('images/kanye-west-black-suit5.jpg');
 }
 
 /* The styling for the static div. */
@@ -65,17 +66,73 @@ body {
   background: black;
 }
 
+/* end parallax styling */
+
 .container--content {
-  border: 1px solid white;
   flex-basis: 75%;
   height: 100%;
+}
+
+.container--content {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container--content > .portrait {
+  /* width required to prevent image from scaling exorbitantly */
+  flex-basis: 40.26%;
+}
+
+.portrait > h1 {
+  font-family: 'Catamaran', 'Arial', sans-serif;
+  font-size: 30px;
+}
+
+.container--content > .portrait > img {
+  /* this image has an inline css style for max-width */
+  width: 100%;
+  border-radius: 5px;
+}
+
+.container--content figcaption {
+  font-family: 'Catamaran', 'Arial', sans-serif;
+  font-size: 25px;
+}
+
+.collaborators {
+  font-family: 'Catamaran', 'Arial', sans-serif;
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+.aliases {
+  font-family: 'Catamaran', 'Arial', sans-serif;
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+.collaborators > ul > li:first-child, .aliases > ul > li:first-child {
+  padding-top: 7.5px;
+}
+
+.collaborators > ul, .aliases > ul {
+  list-style-type: none;
+}
+
+.collaborators > h1, .aliases > h1 {
+  border-bottom: 1px solid white;
+  padding-bottom: 2.5px;
 }
 
 /* begin styling footer  */
 .social-media {
   display: flex;
   justify-content: center;
-  background-color: #303030;
+  background-color: black;
 }
 
 .social-media img {
