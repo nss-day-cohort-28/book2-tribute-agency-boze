@@ -42,7 +42,7 @@ body {
   left: 0;
   /* Move the background image away,
    * then scale it back up to fill the viewport.
-   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+   * Because the ::after is farther away, it appears to move more slowly */
   transform: translateZ(-1px) scale(1.5);
   /* Force the background image to fill the whole element. */
     /* NOTE: may consider cover instead of 100% - Brendan */
@@ -57,7 +57,7 @@ body {
 }
 
 .bg2::after {
-  background-image: url('images/kanye-west-time-100-2015-titans.jpg');
+  background-image: url('images/kanye-west-black-suit5.jpg');
 }
 
 /* The styling for the static div. */
@@ -71,10 +71,28 @@ body {
   height: 100%;
 }
 
+.container--content {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container--content > .portrait {
+  /* width required to prevent image from scaling exorbitantly */
+  width: 500px;
+}
+
+.container--content > .portrait > img {
+  width: 500px;
+  max-width: 1235px;
+  border-radius: 5px;
+}
+
 .social-media {
   display: flex;
   justify-content: center;
-  background-color: #303030;
+  background-color: black;
 }
 
 .social-media img {
