@@ -1,3 +1,7 @@
+/* Keeps secondary scroll bar from appearing */
+body {
+  overflow: hidden;
+}
 .container--secondary {
     display: flex;
     height: calc(100vh - 152px);
